@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Kristijonas Donelaitis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--ICONS-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+  <link rel="manifest" href="./icons/site.webmanifest">
+  <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./icons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Kristijonas Donelaitis">
+  <meta name="application-name" content="Kristijonas Donelaitis">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-config" content="./icons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<!-- Meniu -->
+<header>
+  <nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img class="navbar-brand img-responsive" height="50" id="main_logo" src="./icons/favicon-32x32.png"/>
+        <a class="navbar-brand" id="main-title" href="./index.html">„Metų” Išmintis</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./index.html">APIE DONELAITĮ</a></li>
+          <li><a href="./poema.html">POEMA „METAI”</a></li>
+          <li><a href="#">PAMOKYMAI</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- */Meniu -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Į viršų <i class="fas fa-chevron-circle-up"></i></button>
+
+<div class="container-fluid text-center bg-1">
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <h1 class="margin"><b>„METAI” MOKO...</b></h1>
+      <i class="margin fas fa-3x fa-book-open" id="book-icon"></i><br>
+      <a class="pamokymai-link" href="#1"><h5 class="pamokymai-title">Tikėjimo</h5></a>,
+      <a class="pamokymai-link" href="#1"><h5 class="pamokymai-title">dėkingumo</h5></a>,
+      <a class="pamokymai-link" href="#2"><h5 class="pamokymai-title">kuklumo</h5></a>,
+      <a class="pamokymai-link" href="#3"><h5 class="pamokymai-title">darbštumo</h5></a>,
+      <a class="pamokymai-link" href="#4"><h5 class="pamokymai-title">taupumo</h5></a>,
+      <a class="pamokymai-link" href="#4"><h5 class="pamokymai-title">neišrankumo maistui</h5></a>,
+      <a class="pamokymai-link" href="#5"><h5 class="pamokymai-title">darbštumo namuose ir darže</h5></a>,
+      <a class="pamokymai-link" href="#6"><h5 class="pamokymai-title">apie poniškas ligas</h5></a>,
+      <a class="pamokymai-link" href="#7"><h5 class="pamokymai-title">apie keikimąsi</h5></a>,
+      <a class="pamokymai-link" href="#8"><h5 class="pamokymai-title">pagarbos</h5></a>,
+      <a class="pamokymai-link" href="#9"><h5 class="pamokymai-title">apie sunkius darbus</h5></a>,
+      <a class="pamokymai-link" href="#10"><h5 class="pamokymai-title">apie girtavimą</h5></a>,
+      <a class="pamokymai-link" href="#10"><h5 class="pamokymai-title">bendruomeniškumo</h5></a>,
+      <a class="pamokymai-link" href="#11"><h5 class="pamokymai-title">tolerancijos</h5></a>,
+      <a class="pamokymai-link" href="#12"><h5 class="pamokymai-title">darbštumo</h5></a>,
+      <a class="pamokymai-link" href="#12"><h5 class="pamokymai-title">to meto „verslumo“</h5></a>,
+      <a class="pamokymai-link" href="#13"><h5 class="pamokymai-title">apie nutautėjimą</h5></a>,
+      <a class="pamokymai-link" href="#14"><h5 class="pamokymai-title">gero elgesio su gyvūnais</h5></a>,
+      <a class="pamokymai-link" href="#15"><h5 class="pamokymai-title">pamaldumo</h5></a>,
+      <a class="pamokymai-link" href="#15"><h5 class="pamokymai-title">tradicijų laikymosi</h5></a>,
+      <a class="pamokymai-link" href="#16"><h5 class="pamokymai-title">apie maisto svarbą</h5></a>,
+      <a class="pamokymai-link" href="#17"><h5 class="pamokymai-title">tvarkos ir švaros</h5></a>,
+      <a class="pamokymai-link" href="#18"><h5 class="pamokymai-title">apie papročių praradimą</h5></a>,
+      <a class="pamokymai-link" href="#19"><h5 class="pamokymai-title">tikėjimo</h5></a>,
+      <a class="pamokymai-link" href="#19"><h5 class="pamokymai-title">apie girtuokliavimo žalą</h5></a>,
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+
+<a class="anchor" id="1"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Tikėjimas</h3>
+    <i><p>Pavasario vaizdai</p></i>
+    <pre class="pamokymai-quote">
+      Taip po tam abu, daug dirbę bei trūsinėję,
+      Valgį sav sužvejot pas klaną nulėkė greitai
+      Ir, kelias varles bei rupuižes paragavę,
+      Dievui iš širdies visos viernai dėkavojo.
+      Tu, žmogau niekings! mokykis čia pasikakyt
+      Ir pasisotindams gardžiaus n’užmiršk savo Dievą.
+    </pre>
+    <b><p>Kaip gandras, ilgai ir sunkiai taisantis savo lizdą, dėkoja Dievui už kelias
+    menkas pagautas varles, taip būrai už viską turi dėkoti Dievui.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="2"></a>
+<div class="container-fluid bg-1">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Kuklumas</h3>
+    <i><p>Pasakojimas apie lakštingalą</p></i>
+    <pre class="pamokymai-quote">
+      Bet lakštingala, dar ikšiol kytriai pasislėpus,
+      Laukė vis, iki kožnas bus savo dainą pabaigęs.
+      Todėl ji paskiaus kasmets vis pradeda šūkaut
+      Ir nakties čėse, kad sviets jau miegt įsigūžtęs,
+      Sav viena tamsoj budėdama garbina Dievą,
+      <...>
+      Juk sviets visas, ar būt būrs, ar pons įsirėmęs,
+      Ir vaikai be buksvų, ir krunėdami diedai, –
+      Kožnas ir kiekviens tavo šauną garbina dainą,
+      Kad tu mums dyvus linksmų lakštingalų čiauški.
+      <...>
+      Tai tu tarp kitų paukštelių nei karalienė
+      Vis dailiaus ir šlovingiaus savo šūkteri šūtką.
+      O kad kartais kobotą mes tavo pamatom,
+      Tai tu mums nei žvirblis būriškas pasirodai.
+      Tu sermėgų poniškų, puikiai padarytų,
+      Ir žiuponiškų turbonų niekini rėdą;
+      Bet vis nei būrka prastai viešėdama čiauški.
+    </pre>
+    <b><p>Kaip lakštingala - „paukščių karalienė”, atrodanti kaip žvirblis ir
+      giedanti nakties metu (kai niekas nemato ir negirdi)
+      būrai turėtų būti kuklūs, per daug puošniai nesirengti, nesiskųsti prastu
+    maistu.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="3"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Darbštumas</h3>
+    <i><p>Slunkiaus filosofija ir Pričkaus pamokymai</p></i>
+    <pre class="pamokymai-quote">
+      ,,Rods, – tarė Slunkius, – vėl bensyk su padėjimu Dievo
+      Išmiegot ir sąnarius atgaivyti galėjom.
+      Ak! kieksyk aš, rūpesčių visų neminėdams,
+      Ištisas ir užklots krankiau pas kakalį šiltą.
+      Ak! kad būt ilgiaus žiema pas mus pasilikus,
+      Ir kad vis miegot mums būtų sviete paskirta.
+      <...>
+      ,,Vaikai! – rėkdavo jis, ant demblio girts išsitiesęs
+      Ir su žaku prastu kaip prastas būrs užsiklojęs, –
+      Vaikai! šukštu jums naujus niekus pramanyti,
+      Taip gyvenkit, kaip mes, tėvai jūsų gyvenom.
+      Vis protingai, vis pamaži nusitverkite darbus.
+      Čėdykitės kytriai jauni, dar būdami klapais,
+      Kad dar ir senysta ką ras atšokdama kartą.“
+      <...>
+      ,,Eik, – tarė, – šūdvabali! kur šūdvabaliai pasilinksmin.
+      Juk tu jau su savo namais, kasmets šūdinėdams,
+      Sav ir mums, lietuvninkams, padarei daug gėdos.
+      <...>
+      Juk ir pirmas sviets, šventybę savo prapuldęs,
+      Su darbais ir rūpesčiais savo pleškino puodą:
+      Nės be trūso Dievs mus išmaityt nežadėjo,
+      O tingėdami vis ir snausdami sviete netinkam.
+      Kad skilvys išalkęs nor gardžiai pasilinksmyt,
+      Tai pirma tur visas kūns viernai pasipurtyt.
+    </pre>
+    <b><p>Slunkius dejuoja, kad atėjus vasarai vėl prasideda darbai, tačiau Pričkus
+      (prižiūrėtojas), jį moko, kad būrai, norėdami skaniai pavalgyti, iš pradžių
+     turi gerai padirbėti, nevengti darbo.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="4"></a>
+<div class="container-fluid bg-1">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Neišrankumas maistui</h3>
+    <i><p>Alkanas pavasaris ir Pričkaus pamokymai, ką reikia sėti</p></i>
+    <pre class="pamokymai-quote">
+      ,,Tič! – tarė Pričkus jam, lietuviškai pasakydams, –
+      Eik, žioply! tu juk kasmets dėl ėdesių skundies.
+      Kas tav kalts? Kam vis, sulaukęs rudenį riebų,
+      Taip nesvietiškai sugramdai savo zopostą, 570
+      Kad prieš Mertyną tikt vos paršuks pasiliekti?
+      Čėdyk, neprieteliau, kol riebų šutini puodą,
+      Tai tav kūdą nereiks prisikaist, kad vasara grįžta.
+      <...>
+      Tu tikt vis mėsos kasdien prisiėst išsižioji,
+      O burokų bei lapienės niekini garbę.
+      Todėl tu kasmets, supliurpęs visą zopostą,
+      Blogs ir pusgyvis velkies į baudžiavą mielą.
+    </pre>
+    <b><p>Būrai, linksmai ir sočiai gyvendami žiemą, pavasariui atėjus vos nemiršta
+    badu. Pričkus moko taupyti atsargas, kad jų užtektų iki kitų metų, bei vertinti
+    ne tik mėsą ir lašinius, bet ir daržoves.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="5"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Darbštumas namuose ir darže</h3>
+    <i><p>Pamokymai moterims</p></i>
+    <pre class="pamokymai-quote">
+      Juk radau gana tokių, kurios nesigėdi,
+      Kad joms kartais merdėdams vos sukasi vindas.
+      Nės, kad verpt reik, jos taip daugel pasakų vapa,
+      Kad jau ir ranka kuodelį pešt užsimiršta
+      Ir besijuokiant koja vindą sukt pasiliauja.
+      Taip šūtkas betaisant štai žiema pasibaigia;
+      Ogi pavasaris, atžengdams su vasara miela,
+      Atliktų žiemos darbų visur pasigenda.
+      <...>
+      Taipgi namai visi paskiaus nuogi pasidaro,
+      Kad su buksvoms lopytoms vyrs vos užsidengia,
+      O vaikai ant ūlyčių nuogi bėginėja.“
+      <...>
+      Nugi dabar, ką tikt įmanot, sėkite sėklas!
+      Sėkite kopūstus, morkus su didele sauja;
+      Ropių, pastarnokų, sviklų beigi repukų;
+      Taip ir šalkių su gardžiais kartupelių valgiais
+      Sėt ir įvaisyt, pridabot ir kuopt nepamirškit!
+    </pre>
+    <b><p>Moterys mokomos noriai verpti, austi ir baltinti drobes (o ne tinginiaujant
+      šnekėtis), nes reikia aprengti šeimą, kad nesigėdydami galėtų dirbti laukuose.
+      Tai padariusios, moterys turėtų dirbti darže - sodinti įvairias daržoves.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="6"></a>
+<div class="container-fluid bg-1">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Apie poniškas ligas</h3>
+    <i><p>Būrų ir ponų palyginimas</p></i>
+    <pre class="pamokymai-quote">
+      Tas žmogus, kurs daug trūsinėjęs bei prisivargęs
+      Savo prastus valgius vis su pasimėgimu valgo,
+      O prisivalgęs ir viernai dėkavojęs Dievui
+      Linksmas, sveiks ir drūts miegot į patalą kopa, –
+      Tas apgauna tą, kurs vis kasdien išsirėdęs,
+      Ale dūsaudams ir vis sirgdams nutveria šaukštą!
+      <...>
+      Mes, lietuvninkai vyžoti, mes, nabagėliai,
+      Ponams ir tarnams jų rods prilygti negalim;
+      Bet ir poniškas ligas kentėt neprivalom.
+      <...>
+      Ai! dėl ko ponus taip skaudžiai kankina ligos?
+      Kodėl jų taip daug pirm čėso Giltinė suka?
+      Todėl, kad jie būriškus išjuokdami darbus
+      Su griekais kasdien ir vis tingėdami penis.
+      O štai mes, mieste per nieką laikomi būrai,
+      Pasukų kiek ar išrūgų skystų prisisurbę,
+      Vis tekini, kaip klapams reik, atliekame darbus.
+    </pre>
+    <b><p>Būrai giriami už jų darbštumą - menkai pavalgę jie uoliai kimba į darbus,
+    todėl taip dažnai neserga ir neturi kitų sveikatos bėdų.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="7"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Apie keikimąsi</h3>
+    <i><p>Keikūnų išbarimas</p></i>
+    <pre class="pamokymai-quote">
+      ,,Kad perkūns, kad velnias!“ Ai, žmogau, pasimislyk!
+      Kam dūksti taipo, kam keiki taip išsižiojęs?
+      Ar tave patį jau šėtons padūkino visą?
+      Neprieteliau! kam plėšais taip, kas tav pasidarė?
+      <...>
+      ,,Ak! – tarė Selmas, – jau per daug yr sviete bedievių,
+      Ant kurių liežuvio vis velniai šokinėja.
+      Tūls apjekėlis, sulaukęs rytmetį mielą,
+      Poterių jau nemokėdams ar skaityt nenorėdams,
+      Su perkūnais ir velniais iš patalo kopa.
+      O paskui jis, taip savo namą visą prakeikęs,
+      Su visais velniais šeimyną ragina dirbti.
+      Bet ir valgant jis paskui, taip jau savo stalą
+      Su tokioms žegnonėms pekliškoms įžegnojęs,
+      Duoną nutveria riekt, po tam ir viralą srebia.
+      Taip jis su velniais išaušant imasi darbus;
+      Taip ir temstant jau kirmyt į patalą žergia.
+    </pre>
+    <b><p>Selmas peikia keikūnus, kaltina juos pardavus save velniui. Ponams keiktis leidžiama,
+    nes jie ir taip „pasidavę velniui”.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="8"></a>
+<div class="container-fluid bg-1">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Pagarba</h3>
+    <i><p>Mėšlavežis ir gerojo pono prisiminimas; Antrasis gerojo pono paminėjimas</p></i>
+    <pre class="pamokymai-quote">
+      Tai buvo pons! ak, tokį vos vėl rasime sviete!
+      Mislyk tikt, gaidau! kaip jis mylėdavo žmones;
+      Ir dėl ko jį vėl visi mylėdavo būrai.
+      Daug yr ponpalaikių, kurie, pamatydami būrą,
+      Spjaudo nei ant šuns ir jį per drimelį laiko;
+      Lygiai kad žmogutis toks neverts pažiūrėti.
+      Ale nabašninks amtsrots taip nedarydavo būrui;
+      Bet visur aštriai kaip tėvs užstodavo biedžių.
+      Keikesčių niekados iš jo burnos nesulaukėm;
+      Ir kad kuočės jis būrus išgirsdavo keikiant,
+      Tai tuo tėviškai jis juos mokėdavo koliot.
+      Jis nesakydavo ,,tu“, bet vis pasakydavo ,,jūsų“;
+      Ir iškoliodams jis vis ištardavo ,,jūsų“:
+      <...>
+      Tu kaip tėvs meilings užstot mokėdavai žmones.
+      Ypačiai kad javelius nuvalyt prisiartino čėsas,
+      Ir laukų darbai mus į laukus suvadino,
+      Štai tavo rūpesčiu tuojaus išbusdavo kožnas;
+      Taip kad kartais per naktis miegot negalėjai
+      Ir daugsyk sapnuodams mūsų bėdų paminėjai.
+      Taip besirūpindams visokio gėrimo grečno,
+      Puspyvės ir skinkio daug liepei padaryti;
+      Ir, kad mes apalpę bei vaitodami dirbom,
+      Tuo tavo tarnas mus gaivyt atveždavo bačką.
+    </pre>
+    <b><p>„Kaip šauksi, taip atsilieps” – norėdami, kad kiti mus gerbtų ir klausytų,
+    turime visų pirma patys pagarbiai elgtis su visais žmonėmis, nesvarbu, kokius
+    darbus jie dirba ar kokiai socialinei grupei priklauso.
+    Ištraukoje gerasis ponas lyginamas su tėvu, saugančiu, užstojančiu ir gerbiančiu
+    savo vaikus.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="9"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Sunkūs darbai</h3>
+    <i><p>Mėšlavežio simboliškumas</p></i>
+    <pre class="pamokymai-quote">
+      Ar nežinai, kad būrs nor grečną grūdą sulaukti,
+      Tai pirm to jisai tur grečną šūdą pakrėsti?
+      Puodui juk kasdien, kad kokį viralą verdi,
+      Druskos ne tiktai, bet dar ir uždaro reikia.
+      Kam nesisūdęs ir n’užsidaręs nesrebi srubą;
+      <...>
+      Tūls nusvilęs ponpalaikis rods juokiasi būrams
+      Ir besišypsodams jų darbus niekina bloznas,
+      Lygiai kad toksai be būrų gal įsiremti
+      Irgi be mėšlo jų pyragais gal pasivalgyt.
+      Ak! kur dingtų ponai, kad jie būro netektų
+      Ir kad biedžius toks su šūdais jiems nepadėtų.
+    </pre>
+    <b><p>Be sunkaus darbo nebus skanaus maisto – ištraukoje skatinama nebijoti
+    sunkių, purvinų darbų, nes jie uždirba maistą.
+    Akcentuojama būrų svarba ponams – nors šiuos niekina ir skriaudžia, dvarininkai
+    be būrų negebėtų atlikti jokių kasdienių darbų ūkyje ir būtų pasmerkti.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="10"></a>
+<div class="container-fluid bg-1">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Girtavimas ir bendruomeniškumas</h3>
+    <i><p>Kelionė į Karaliaučių</p></i>
+    <pre class="pamokymai-quote">
+      Tas nenaudėlis Plaučiūns, pas Kasparą pernai
+      Talkoje pavitots, taip baisiai buvo pririjęs,
+      Kad jis naktyj, ant tamsų laukų klydinėdams,
+      Budę naują su dalgiu šukėtu prapuldė
+      Irgi namon išaušus jau vos vos parsibastė.
+      <...>
+      Ir žioplinėdams vis bei būriškai šokinėdams,
+      Budę su nauju dalgiu nusipirkt užsimiršo;
+      Bet ir kuinpalaikį taip jau pas Miką pragėręs,
+      Pėsčias po dviejų nedėlių vos parsibastė
+      Ir savo pievą pridergtą (tikt gėda sakyti)
+      Šnypšdams ir rėplinėdams vis su pjautuvu kirto;
+      Bet kaimynai jo rugius jau buvo suvalę,
+      Ir keli kviečių plyckus pasikepę valgė.
+    </pre>
+    <b><p>Nenaudėlis Plaičiūns smerkiamas, nes girtas pametė dalgį ir budę, o išvykęs
+    į Karaliaučių jų pirkti, pragėrė dar ir arklį.
+    Būrai – labai draugiška, artima bendruomenė: Plaučiūnui kažkur dingus, visi
+    drauge padėjo jo pačiai nuimti derlių, tvarkytis ūkyje.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="11"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Tolerancija</h3>
+    <i><p>Selmas apie lietuvninkų ir kitataučių santykius</p></i>
+    <pre class="pamokymai-quote">
+     ,,Ak! – tarė Selmas, – jau toktu su mūsų gadyne,
+     Kaip jau šveisteris ir prancūzas Lietuvą gavo.
+     Rods ir tarp lietuvninkų tūls randasi kiaulė,
+     Kurs, lietuviškai kalbėdams, šveisterį peikia;
+     O tiktai ir pats kaip tikras šveisteris elgias.
+     Kaip pirm to lietuvninkai dar buvo pagonai
+     Ir savo dievaičius iš strampų sav pasidarę
+     Ir po medžiais ant virvių pasikorę gyrė,
+     Tai jie rods dar taip, kaip mes, nepažydami Dievą,
+     Daug nešvankų ir durnų daiktų prasimanė.
+     Ogi dabar jau mes, krikščionims būdami prūsai,
+     Mes lietuvninkai taip baisiai ryt nesigėdim,
+     Kad ir vokiečiai glupoki tur nusidyvyt.“
+    </pre>
+    <b><p>Smerkiami būrai, blogai kalbantys apie kitataučius, nors patys elgiasi
+    taip, kaip peikiamas šveicaras ar prancūzas.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="12"></a>
+<div class="container-fluid bg-1">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Darbštumas, „verslumas“</h3>
+    <i><p>Pamokymai moterims</p></i>
+    <pre class="pamokymai-quote">
+      O jūs, moters, ar ir jūs taip jau pasileidot?
+      Kam linų raut ir kaip reik iškaršt nesirengiat?
+      Ar ne gėda jums, kad vokiečių gaspadinės
+      Iškarštus linus į lauką jau nugabena
+      Ir, besidyvydamos didei, jūsų tinginį peikia?
+      <...>
+      O jūs, vyrai! kam gi nenaudėlių moteriškių
+      Ir išdykėlių mergų raspustą nedraudžiat?
+      Ar jau norit vokiečiams nuogi pasirodyt
+      Ir kaip drimeliai ant šlovnų česnių nusigėdėt?
+      Jūs, apjekėliai! ar jau visai nesuprantat,
+      Kokią sav ir mums visiems padarysite gėdą,
+      Kad su buksvoms lopytoms į baudžiavą žergsit
+      Ir mišion sudriskę bei skaroti nukaksit?
+      <...>
+      Bet ir su riešutais saldžiais taip jau pasidarė.
+      Vokietės tokių daiktų bačkas prisirinko,
+      Ir jau kelios jų parduot žakus prisipylė.
+      O štai mūsų nenaudėlės dar nei riešutytį,
+      Ir nei vieną, nei mackiurniką riešutytį
+      Žiemai perkąst ir kramtyt dar nenusiskynė.
+      <...>
+      Taip pamatysim tuo, kaip vindai mūsų žiuponių,
+      Pakulų bei linų grįžtes pešinėdami, stapters.
+      Taip žiema pasibaigs, o mes nuogi pasiliksim.“
+    </pre>
+    <b><p>Lietuvės lyginamos su vokietėmis, peikiamos, kad nerauna linų, nerenka
+    riešutų ir nepardavinėja to, ką užaugina ar surenka.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="13"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Nutautėjimas</h3>
+    <i><p>Pamokymai moterims</p></i>
+    <pre class="pamokymai-quote">
+       Ak! kur dingot jūs, barzdotos mūsų gadynės,
+       Kaip lietuvninkės dar vokiškai nesirėdė
+       Ir dar vokiškus žodžius ištart negalėjo.
+       O štai dar negana, kad vokiškai dabinėjas,
+       Bet jau ir prancūziškai kalbėt prasimanė.
+       Taipgi bezaunydamos ir darbo savo pamiršta.
+    </pre>
+    <b><p>Moterys kaltinamos, kad rengiasi pagal kitataučių tradicijas ir kalba
+    kitomis kalbomis.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="14"></a>
+<div class="container-fluid bg-1">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Geras elgesys su gyvūnais</h3>
+    <i><p>Vestuvių šventė</p></i>
+    <pre class="pamokymai-quote">
+      O vei vėl tuojaus tas pats kvieslys pasirodė
+      Irgi beklykaudams kumelės nugarą daužė.
+      Tu, nenaudėli, kam spardai kumelio šonus?
+      Ar negana, kad jį vos gyvą baudžiava lupo?
+      O tu su pentinais jam dar daugsini vargą?
+      Jok pamaži, žioply, nemušk be reikalo kuiną!
+      Juk girdi, rytoj reikės į girę važiuoti,
+      O poryt mažu reiks parvežyt didelį pilvą.
+    </pre>
+    <b><p>Vestuvėse kvieslys kaltinamas, kad be reikalo muša arklį, savo pagalbininką
+    darbuose.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="15"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Pamaldumas ir tradicijų laikymasis</h3>
+    <i><p>Pričkus pasakoja apie ponų vaišes</p></i>
+    <pre class="pamokymai-quote">
+      Aš, rankas savo būriškas kaip reik susiėmęs,
+     Poniškų bei nobažnų vis poterių laukiu.
+     Štai žiūriu, kiekviens tarp jų jau rengiasi sėstis
+     Ir, visai dangaus užmiršęs, imasi šaukštą
+     Irgi bezaunydams valgius į gomurį kiša.
+     <...>
+     „Jūs, išputėliai pilvoti, jūs gi, bedieviai,
+     Ar jau gėda jums šventai rankas susiimti
+     Ir aukštyn pažiūrėt, kad riebius imate kąsnius?
+     Mes, suskretę būrai, mes, vyžoti nabagai,
+     Šen ir ten vis stumdyti bei daug prisivargę,
+     Tankiai vos plutas sausas į vėdarą kišam
+     Ir tikt su blogu skinkiu gaiviname širdis,
+     O tikt ir už tai kasdien dėkavojame Dievui.
+     O jūs, neprieteliai, valgius vis rydami riebius
+     Ir vis rinčvynius į pilvą košdami storą,
+     Dievo bei dangaus visai paminėti paliovėt.
+     Ar nesibijotės užspringt, kad kabiar ėdat,
+     Ar kad jūsų namus Perkūns į plentą supleškys?“
+    </pre>
+    <b><p>Pričkus kaltina ponus, kad šie prieš valgį, taip kaip būrai, nesimeldžia.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="16"></a>
+<div class="container-fluid bg-1">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Maisto svarba</h3>
+    <i><p>Riebūs rudens valgiai</p></i>
+    <pre class="pamokymai-quote">
+      Nugi dabar, naštas vargų visas nusikratę,
+      Jau pasilinksmykim bensyk česnyj susikvietę.
+      Tam juk Dievs dosnus gėrybes mums dovanoja,
+      Kad nusimūčiję bei, kaip mums reik, trūsinėję,
+      Vėl atsigautumbim, gardžiai kramtydami kąsnius.
+      Darbo reik, nės taip kožnam Dievs paliepė valgyt,
+      Valgio reik, kad dirbančius syla nepamestų.
+      Taigi nečėdykim mušt, pjaut ir skerst savo valgį.
+    </pre>
+    <b><p>Pabrėžiama maisto svarba gyvenime – jis reikalingas kiekvienam, nes
+    suteikia jėgų kasdieniams darbams.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="17"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Tvarka ir švara</h3>
+    <i><p>Enskio pasakojimas apie Pelėdos trobą</p></i>
+    <pre class="pamokymai-quote">
+      Trobos smirdų tų, kad jas kas nor įsitėmyt,
+      Nei pūstynės iš visų pašalių pasirodo.
+      Kad aukštyn žiūri, pamatai sudriskusį kraiką,
+      Ant kurio sklypus nuplėštus klestina vėjai,
+      Kad viens čia, kits ten nuo stogo ritasi lopas.
+      Sparai po kraiku su čytais kliba supuvę,
+      O viduj visur po stogu latgaliai kaba,
+      Su plaušais ar karklais be negelių sukabyti.
+      Bet apačioj, kad jų butus bjaurius pažiūrėsi,
+      Tuo juos kaip staldus ar kiaultvarčius pamatysi;
+      Nės, kur tikt žiūri, visur mėžinys pasirodo.
+      Juk jie ir kiaules stuboj laikyt nesigėdi,
+      Ir, kad jiems padyviji, dar barasi smarkiai.
+      <...>
+      „Kiaulė, – tariau, – ką dirbi? ar visai nesigėdi?
+      Juk tu jau kaip šūdvabalis mėžinyj pasirodai;
+      Ar girdi, kaip šūdvabalis jau šūde pasmirdai.
+      <...>
+      „O tu, neprieteliau skarots, su valkata Slunkium
+      Jau visai nesigėdita tarp žmonių pasirodyt?
+      Judu netinkat kiaulpalaikes kelias varinėti,
+      O dar kaip gaspadoriai su kitais gaspadoriais
+      Vis aukščiaus česnyj tarp svotų lendate sėstis
+      Ir tikt vis gardžiai smaguraut ir maukt išsižiojat.
+    </pre>
+    <b><p>Enskys peikia Pelėdą, kad šis neprižiūri trobos švaros ir tvarkos, tačiau
+      lygiuojasi su tvarkingai gyvenančiais būrais.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="18"></a>
+<div class="container-fluid bg-1">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Papročių praradimas</h3>
+    <i><p>Selmas lygina praėjusius laikus su šiandiena</p></i>
+    <pre class="pamokymai-quote">
+      Ak, kur dingot jūs, lietuviškos gadynėlės,
+      Kaip dar prūsai vokiškai kalbėt nemokėjo
+      Ir nei kurpių, nei sopagų dar nepažino,
+      Bet vyžas, kaip būrams reik, nešiodami gyrės.
+      Tai dar viežlybų kaimynų beigi bičiulių
+      Gėdėtis ir juos išpeikt nei viens neprivalė.
+      Ogi dabar, žėlėk Dieve, tikt gėda žiūrėti,
+      Kad lietuvninkai kaip vokiečiai sopaguoti
+      Ar su kurpėms rudenyj ant česnių pasirodo.
+    </pre>
+    <b><p>Selmas smerkia lietuvninkus perimančius kitataučių tradicijas, ypač - rūbus.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<a class="anchor" id="19"></a>
+<div class="container-fluid bg-2">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h3>Tikėjimo praradimas ir girtuokliavimas</h3>
+    <i><p>Selmas lygina praėjusius laikus su šiandiena</p></i>
+    <pre class="pamokymai-quote">
+      Tėvai mūsų seni, pirm to neturėdami šuilių,
+      Rods nei pybelių, nei katgismų dar nepažino.
+      Jie tikt iš galvos šventus mokinosi mokslus,
+      O štai tikt daugiaus garbėj laikydavo Dievą
+      Ir šventoms dienoms bažnyčion bėgdavo greitai.
+      Ogi dabar, žėlėk Dieve, tikt gėda žiūrėti,
+      Kad lietuvninkai, prancūziškai pasirėdę,
+      Į bažnyčią vos išgirst ką kyšteria galvas,
+      O paskui tuo žaist ir šokt į karčemą bėga.
+      <...>
+      Bet kiti, vaidus dėl niekniekių prasimanę
+      Ir girti kits kitą prie galvos nusitvėrę,
+      Nei razbaininkai ant aslos vemdami tąsos,
+      Kad vemalai visur per visą karčemą teška.
+      Tai bjaurybė, kad plaukai pasišiaušia begirdint.
+       Bet dar to negana. Taipo girtuodami tėvai
+      Ir vaikus glūpus su savim į karčemą velka,
+      Kad ir juos tuojaus iš mažo surbt pamokytų;
+      O paskui, vaikams bepamatant, pešasi tėvai,
+      Kad plaukų visur išplėštų sukasi pluoštai.
+    </pre>
+    <b><p>Selmas peikia būrus, sekmadienį tik simboliškai užeinančius į bažnyčia,
+    o po to važiuojančius į karčemą, ten žaidžiančius bei geriančius. Baisiausia,
+    kad muštynes ir girtuokliavimą mato vaikai, kurie perima matomą tėvų elgesį.</p></b>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+
+<!-- Kontaktai -->
+<footer class="container-fluid bg-2 text-center">
+  <p>Poemos tekstą parengė ir redagavo Mikas Vaicekauskas.<br>
+     Šaltinis - <a href="http://www.šaltiniai.info/files/literatura/LF00/Kristijonas_Donelaitis._Metai.LF0900.pdf">saltiniai.info</a></p>
+	<p>© Eidenis Kasperavičius, 2018<br>
+	<a href="https://bit.ly/eidenis">Portfolio, kontaktai</a></p>
+</footer>
+<!-- /*Kontaktai -->
+<script src="./js/poema.js"></script>
+</body>
+</html>
