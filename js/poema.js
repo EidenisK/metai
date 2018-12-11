@@ -21,13 +21,13 @@ function nextTitle() {
     cTitle++;
     titles[cTitle].style.color = color;
     document.getElementById("book-icon").style.color = "";
-    setTimeout(nextTitle, 250);
+    setTimeout(nextTitle, 100);
   }
   else if(cTitle +1 < titles.length) {
     titles[cTitle].style.color = "";
     cTitle++;
     titles[cTitle].style.color = color;
-    setTimeout(nextTitle, 150);
+    setTimeout(nextTitle, 100);
   } else {
     document.getElementById("book-icon").style.color = color;
     titles[cTitle].style.color = "";
