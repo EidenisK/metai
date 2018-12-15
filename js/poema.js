@@ -12,7 +12,8 @@ $(document).ready (function() {
   });
   cTitle = -1;
   titles = document.getElementsByClassName("pamokymai-title");
-  nextTitle();
+  if($(".pamokymai-link").length)
+    nextTitle();
 });
 
 

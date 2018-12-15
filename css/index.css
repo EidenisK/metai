@@ -208,3 +208,68 @@ pre {
 .poema-body p {
   text-align: center;
 }
+
+/* Container holding the image and the text */
+.mycontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 0;
+}
+
+.shadow {
+  box-shadow: 0px 8px 10px -5px black;
+}
+
+.headingimage {
+  position: relative;
+  z-index: -2;
+  width: 100%;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*---------------------PARLAX----------------------*/
+.block{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+}
+.block div{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  font-size: 6vw;
+  color: white;
+  font-weight: 400;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none
+}
+
+.smallerBlock {
+  font-size: 8px;
+}
+
+.smallerBlock div {
+  font-size: 6vw;
+}
